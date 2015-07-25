@@ -33,7 +33,7 @@ def check_output(*popenargs, **kwargs):
 
 class CalledProcessWithOutputError(subprocess.CalledProcessError):
 
-    """An exception with the steout and stderr of a failed subprocess32."""
+    """An exception with the stdout and stderr of a failed subprocess32."""
 
     def __init__(self, returncode, cmd, output, err):
         """Assign output and error."""
